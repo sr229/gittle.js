@@ -1,39 +1,39 @@
 {
-    "name": "gittle",
-    "version": "0.3.1",
-    "description": "Simple Node.js wrapper for the Git CLI",
-    "main": "index.js",
-    "scripts": {
-        "test": "NODE_PATH=lib node_modules/.bin/nodeunit test/*-test.js"
+  "name": "gittle",
+  "version": "0.3.1",
+  "description": "Simple Node.js wrapper for the Git CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/nodeunit test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:FriendCode/gittle.js.git"
+  },
+  "keywords": [
+    "gittle",
+    "git",
+    "js"
+  ],
+  "author": "FriendCode",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "lodash": "3.x.x || 2.4.x",
+    "node-pty": "^0.7.0",
+    "q": "1.1.2"
+  },
+  "devDependencies": {
+    "nodeunit": "0.8.2",
+    "tmp": "0.0.23"
+  },
+  "contributors": [
+    {
+      "name": "Aaron O'Mullan",
+      "email": "aaron.omullan@friendco.de"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com:FriendCode/gittle.js.git"
-    },
-    "keywords": [
-        "gittle",
-        "git",
-        "js"
-    ],
-    "author": "FriendCode",
-    "license": "Apache-2.0",
-    "dependencies": {
-        "pty.js": "0.2.13",
-        "lodash": "3.x.x || 2.4.x",
-        "q": "1.1.2"
-    },
-    "devDependencies": {
-        "nodeunit": "0.8.2",
-        "tmp": "0.0.23"
-    },
-    "contributors": [
-        {
-            "name": "Aaron O'Mullan",
-            "email": "aaron.omullan@friendco.de"
-        },
-        {
-            "name": "Samy Pesse",
-            "email": "samy.pesse@friendco.de"
-        }
-    ]
+    {
+      "name": "Samy Pesse",
+      "email": "samy.pesse@friendco.de"
+    }
+  ]
 }
